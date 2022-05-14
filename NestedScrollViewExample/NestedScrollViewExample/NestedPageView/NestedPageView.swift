@@ -8,6 +8,7 @@
 
 import UIKit
 import Combine
+import SnapKit
 
 //MARK: - NestedPageViewDelegate
 protocol NestedPageViewDelegate: AnyObject {
@@ -31,7 +32,7 @@ protocol NestedPageViewDatasource: AnyObject {
 }
 
 //MARK: - NestedPageView
-class NestedPageView: NiblessView {
+class NestedPageView: UIView {
     //MARK: - Components
     private var customNavigation: CustomDynamicAlphaNavigationViewController?
     
@@ -65,12 +66,16 @@ class NestedPageView: NiblessView {
         self.layout = layout
         super.init(frame: .zero)
         
-        backgroundColor = .supportBg
+        backgroundColor = .lightGray
         
         constructViewHierarchy()
         activateConstraints()
         
         setupBinding()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     func reload() {

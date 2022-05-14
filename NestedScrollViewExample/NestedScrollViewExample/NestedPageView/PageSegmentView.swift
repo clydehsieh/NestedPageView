@@ -9,7 +9,7 @@
 import UIKit
 import Combine
 
-class PageSegmentView: NiblessView {
+class PageSegmentView: UIView {
     //MARK: - Components
     private let containerView: UIStackView = {
         let sv = UIStackView()
@@ -20,15 +20,17 @@ class PageSegmentView: NiblessView {
     
     private let separatorLine: UIView = {
         let v = UIView()
-        v.backgroundColor = .secondaryGYGY910
+        v.backgroundColor = .lightGray
         return v
     }()
     
     private let segmentLine: UIView = {
         let v = UIView()
-        v.backgroundColor = .secondaryGYGY9
+        v.backgroundColor = .lightGray
         return v
     }()
+    
+    private var segmentLineLeftConstraint: NSLayoutConstraint?
     
     //MARK: - Parameters
     let didTapControlIndex: PassthroughSubject<Int, Never> = .init()
@@ -43,6 +45,10 @@ class PageSegmentView: NiblessView {
         constructViewHierarchy()
         activateConstraints()
         setupBinding()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     func add(_ segmentControls: [UIControl]) {

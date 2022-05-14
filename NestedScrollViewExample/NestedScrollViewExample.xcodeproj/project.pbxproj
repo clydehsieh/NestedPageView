@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16DBE0836F29E45AA7B6D70D /* Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E7109A14B324919E1175DA /* Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework */; };
+		87F02D042EF8E830FC64C559 /* Pods_NestedScrollViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723F52C5C3D543E73772C56D /* Pods_NestedScrollViewExample.framework */; };
+		C7EDBD78AE789BE593C78D44 /* Pods_NestedScrollViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9FC2BC674E44256CCF653D /* Pods_NestedScrollViewExampleTests.framework */; };
 		EC32296A282FB57A00F0F589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC322969282FB57A00F0F589 /* AppDelegate.swift */; };
 		EC32296C282FB57A00F0F589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32296B282FB57A00F0F589 /* SceneDelegate.swift */; };
 		EC32296E282FB57A00F0F589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32296D282FB57A00F0F589 /* ViewController.swift */; };
@@ -16,7 +19,19 @@
 		EC322981282FB57C00F0F589 /* NestedScrollViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC322980282FB57C00F0F589 /* NestedScrollViewExampleTests.swift */; };
 		EC32298B282FB57C00F0F589 /* NestedScrollViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32298A282FB57C00F0F589 /* NestedScrollViewExampleUITests.swift */; };
 		EC32298D282FB57C00F0F589 /* NestedScrollViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32298C282FB57C00F0F589 /* NestedScrollViewExampleUITestsLaunchTests.swift */; };
-		EC32299A282FB5A300F0F589 /* NestedPageView in Resources */ = {isa = PBXBuildFile; fileRef = EC322999282FB5A300F0F589 /* NestedPageView */; };
+		EC3229A1282FB71300F0F589 /* NestedPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32299E282FB71300F0F589 /* NestedPageViewLayout.swift */; };
+		EC3229A3282FB71300F0F589 /* NestedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3229A0282FB71300F0F589 /* NestedPageView.swift */; };
+		EC3229AC282FB7BD00F0F589 /* PageSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3229AB282FB7BD00F0F589 /* PageSegmentView.swift */; };
+		EC3229AF282FB7C800F0F589 /* PageSegmentButtonConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3229AD282FB7C800F0F589 /* PageSegmentButtonConfiguration.swift */; };
+		EC3229B0282FB7C800F0F589 /* PageSegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3229AE282FB7C800F0F589 /* PageSegmentButton.swift */; };
+		ECC3F449282FBB35002D57B1 /* NestedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F447282FBB35002D57B1 /* NestedScrollView.swift */; };
+		ECC3F44A282FBB35002D57B1 /* NestedChildTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F448282FBB35002D57B1 /* NestedChildTableView.swift */; };
+		ECC3F44D282FBB3C002D57B1 /* HorizontalPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F44B282FBB3B002D57B1 /* HorizontalPageContentView.swift */; };
+		ECC3F44E282FBB3C002D57B1 /* PageContentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F44C282FBB3C002D57B1 /* PageContentProtocol.swift */; };
+		ECC3F450282FBB6A002D57B1 /* UnidirectionalAutoLayoutScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F44F282FBB6A002D57B1 /* UnidirectionalAutoLayoutScrollView.swift */; };
+		ECC3F454282FBB87002D57B1 /* CustomDynamicAlphaNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F451282FBB87002D57B1 /* CustomDynamicAlphaNavigationView.swift */; };
+		ECC3F455282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F452282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewController.swift */; };
+		ECC3F456282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC3F453282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A8BD705D671F29329FE72D /* Pods-NestedScrollViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExampleTests.release.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExampleTests/Pods-NestedScrollViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		251276E66DEA3940E18F1447 /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6485CB0FA54EB6463AE266 /* Pods-NestedScrollViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExample.release.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExample/Pods-NestedScrollViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		723F52C5C3D543E73772C56D /* Pods_NestedScrollViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedScrollViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1F66D92A0C3A1A70486A0F /* Pods-NestedScrollViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExample.debug.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExample/Pods-NestedScrollViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4153EB73DFE4DDE4CE228C /* Pods-NestedScrollViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExampleTests/Pods-NestedScrollViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B62F05D14D4EF47DFFD1C83A /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9FC2BC674E44256CCF653D /* Pods_NestedScrollViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedScrollViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC322966282FB57A00F0F589 /* NestedScrollViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedScrollViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC322969282FB57A00F0F589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC32296B282FB57A00F0F589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +73,20 @@
 		EC322986282FB57C00F0F589 /* NestedScrollViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedScrollViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC32298A282FB57C00F0F589 /* NestedScrollViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollViewExampleUITests.swift; sourceTree = "<group>"; };
 		EC32298C282FB57C00F0F589 /* NestedScrollViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EC322999282FB5A300F0F589 /* NestedPageView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NestedPageView; sourceTree = "<group>"; };
+		EC32299E282FB71300F0F589 /* NestedPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedPageViewLayout.swift; sourceTree = "<group>"; };
+		EC3229A0282FB71300F0F589 /* NestedPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedPageView.swift; sourceTree = "<group>"; };
+		EC3229AB282FB7BD00F0F589 /* PageSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSegmentView.swift; sourceTree = "<group>"; };
+		EC3229AD282FB7C800F0F589 /* PageSegmentButtonConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSegmentButtonConfiguration.swift; sourceTree = "<group>"; };
+		EC3229AE282FB7C800F0F589 /* PageSegmentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSegmentButton.swift; sourceTree = "<group>"; };
+		ECC3F447282FBB35002D57B1 /* NestedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedScrollView.swift; sourceTree = "<group>"; };
+		ECC3F448282FBB35002D57B1 /* NestedChildTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedChildTableView.swift; sourceTree = "<group>"; };
+		ECC3F44B282FBB3B002D57B1 /* HorizontalPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalPageContentView.swift; sourceTree = "<group>"; };
+		ECC3F44C282FBB3C002D57B1 /* PageContentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentProtocol.swift; sourceTree = "<group>"; };
+		ECC3F44F282FBB6A002D57B1 /* UnidirectionalAutoLayoutScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnidirectionalAutoLayoutScrollView.swift; sourceTree = "<group>"; };
+		ECC3F451282FBB87002D57B1 /* CustomDynamicAlphaNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDynamicAlphaNavigationView.swift; sourceTree = "<group>"; };
+		ECC3F452282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDynamicAlphaNavigationViewController.swift; sourceTree = "<group>"; };
+		ECC3F453282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDynamicAlphaNavigationViewModel.swift; sourceTree = "<group>"; };
+		F2E7109A14B324919E1175DA /* Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F02D042EF8E830FC64C559 /* Pods_NestedScrollViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EDBD78AE789BE593C78D44 /* Pods_NestedScrollViewExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DBE0836F29E45AA7B6D70D /* Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51F381814A4D83FE4F8A1460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F66D92A0C3A1A70486A0F /* Pods-NestedScrollViewExample.debug.xcconfig */,
+				5B6485CB0FA54EB6463AE266 /* Pods-NestedScrollViewExample.release.xcconfig */,
+				251276E66DEA3940E18F1447 /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.debug.xcconfig */,
+				B62F05D14D4EF47DFFD1C83A /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.release.xcconfig */,
+				AB4153EB73DFE4DDE4CE228C /* Pods-NestedScrollViewExampleTests.debug.xcconfig */,
+				04A8BD705D671F29329FE72D /* Pods-NestedScrollViewExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6E751250A4E4B16A1E94D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				723F52C5C3D543E73772C56D /* Pods_NestedScrollViewExample.framework */,
+				F2E7109A14B324919E1175DA /* Pods_NestedScrollViewExample_NestedScrollViewExampleUITests.framework */,
+				DC9FC2BC674E44256CCF653D /* Pods_NestedScrollViewExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC32295D282FB57A00F0F589 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				EC32297F282FB57C00F0F589 /* NestedScrollViewExampleTests */,
 				EC322989282FB57C00F0F589 /* NestedScrollViewExampleUITests */,
 				EC322967282FB57A00F0F589 /* Products */,
+				51F381814A4D83FE4F8A1460 /* Pods */,
+				C6E751250A4E4B16A1E94D9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +168,7 @@
 				EC322969282FB57A00F0F589 /* AppDelegate.swift */,
 				EC32296B282FB57A00F0F589 /* SceneDelegate.swift */,
 				EC32296D282FB57A00F0F589 /* ViewController.swift */,
-				EC322999282FB5A300F0F589 /* NestedPageView */,
+				EC32299D282FB6ED00F0F589 /* NestedPageView */,
 				EC32296F282FB57A00F0F589 /* Main.storyboard */,
 				EC322972282FB57B00F0F589 /* Assets.xcassets */,
 				EC322974282FB57B00F0F589 /* LaunchScreen.storyboard */,
@@ -130,6 +194,34 @@
 			path = NestedScrollViewExampleUITests;
 			sourceTree = "<group>";
 		};
+		EC32299D282FB6ED00F0F589 /* NestedPageView */ = {
+			isa = PBXGroup;
+			children = (
+				EC3229A0282FB71300F0F589 /* NestedPageView.swift */,
+				EC32299E282FB71300F0F589 /* NestedPageViewLayout.swift */,
+				EC3229AB282FB7BD00F0F589 /* PageSegmentView.swift */,
+				EC3229AE282FB7C800F0F589 /* PageSegmentButton.swift */,
+				EC3229AD282FB7C800F0F589 /* PageSegmentButtonConfiguration.swift */,
+				ECC3F44F282FBB6A002D57B1 /* UnidirectionalAutoLayoutScrollView.swift */,
+				ECC3F448282FBB35002D57B1 /* NestedChildTableView.swift */,
+				ECC3F447282FBB35002D57B1 /* NestedScrollView.swift */,
+				ECC3F44B282FBB3B002D57B1 /* HorizontalPageContentView.swift */,
+				ECC3F44C282FBB3C002D57B1 /* PageContentProtocol.swift */,
+				ECC3F457282FBB90002D57B1 /* CustomDynamicAlphaNavigationViewController */,
+			);
+			path = NestedPageView;
+			sourceTree = "<group>";
+		};
+		ECC3F457282FBB90002D57B1 /* CustomDynamicAlphaNavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ECC3F451282FBB87002D57B1 /* CustomDynamicAlphaNavigationView.swift */,
+				ECC3F452282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewController.swift */,
+				ECC3F453282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewModel.swift */,
+			);
+			path = CustomDynamicAlphaNavigationViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC322990282FB57C00F0F589 /* Build configuration list for PBXNativeTarget "NestedScrollViewExample" */;
 			buildPhases = (
+				60CB2DA576D92CEED8A7E68D /* [CP] Check Pods Manifest.lock */,
 				EC322962282FB57A00F0F589 /* Sources */,
 				EC322963282FB57A00F0F589 /* Frameworks */,
 				EC322964282FB57A00F0F589 /* Resources */,
+				13CCFE4C78B41E4C4042B469 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC322993282FB57C00F0F589 /* Build configuration list for PBXNativeTarget "NestedScrollViewExampleTests" */;
 			buildPhases = (
+				5158E0D32EAE0F2D55CCABB4 /* [CP] Check Pods Manifest.lock */,
 				EC322978282FB57C00F0F589 /* Sources */,
 				EC322979282FB57C00F0F589 /* Frameworks */,
 				EC32297A282FB57C00F0F589 /* Resources */,
@@ -172,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC322996282FB57C00F0F589 /* Build configuration list for PBXNativeTarget "NestedScrollViewExampleUITests" */;
 			buildPhases = (
+				F1BA2E011A3374838565D4AA /* [CP] Check Pods Manifest.lock */,
 				EC322982282FB57C00F0F589 /* Sources */,
 				EC322983282FB57C00F0F589 /* Frameworks */,
 				EC322984282FB57C00F0F589 /* Resources */,
+				66034CAC7BB56F0C434F3EBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC322976282FB57B00F0F589 /* LaunchScreen.storyboard in Resources */,
-				EC32299A282FB5A300F0F589 /* NestedPageView in Resources */,
 				EC322973282FB57B00F0F589 /* Assets.xcassets in Resources */,
 				EC322971282FB57A00F0F589 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +353,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13CCFE4C78B41E4C4042B469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample/Pods-NestedScrollViewExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample/Pods-NestedScrollViewExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample/Pods-NestedScrollViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5158E0D32EAE0F2D55CCABB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedScrollViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CB2DA576D92CEED8A7E68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedScrollViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66034CAC7BB56F0C434F3EBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BA2E011A3374838565D4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedScrollViewExample-NestedScrollViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC322962282FB57A00F0F589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +463,19 @@
 			files = (
 				EC32296E282FB57A00F0F589 /* ViewController.swift in Sources */,
 				EC32296A282FB57A00F0F589 /* AppDelegate.swift in Sources */,
+				EC3229A1282FB71300F0F589 /* NestedPageViewLayout.swift in Sources */,
+				ECC3F450282FBB6A002D57B1 /* UnidirectionalAutoLayoutScrollView.swift in Sources */,
+				ECC3F44A282FBB35002D57B1 /* NestedChildTableView.swift in Sources */,
+				EC3229AC282FB7BD00F0F589 /* PageSegmentView.swift in Sources */,
+				ECC3F454282FBB87002D57B1 /* CustomDynamicAlphaNavigationView.swift in Sources */,
+				ECC3F44D282FBB3C002D57B1 /* HorizontalPageContentView.swift in Sources */,
+				ECC3F456282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewModel.swift in Sources */,
+				ECC3F44E282FBB3C002D57B1 /* PageContentProtocol.swift in Sources */,
+				EC3229AF282FB7C800F0F589 /* PageSegmentButtonConfiguration.swift in Sources */,
+				ECC3F449282FBB35002D57B1 /* NestedScrollView.swift in Sources */,
+				EC3229A3282FB71300F0F589 /* NestedPageView.swift in Sources */,
+				EC3229B0282FB7C800F0F589 /* PageSegmentButton.swift in Sources */,
+				ECC3F455282FBB87002D57B1 /* CustomDynamicAlphaNavigationViewController.swift in Sources */,
 				EC32296C282FB57A00F0F589 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +648,7 @@
 		};
 		EC322991282FB57C00F0F589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1F66D92A0C3A1A70486A0F /* Pods-NestedScrollViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +678,7 @@
 		};
 		EC322992282FB57C00F0F589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6485CB0FA54EB6463AE266 /* Pods-NestedScrollViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +708,7 @@
 		};
 		EC322994282FB57C00F0F589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4153EB73DFE4DDE4CE228C /* Pods-NestedScrollViewExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +729,7 @@
 		};
 		EC322995282FB57C00F0F589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A8BD705D671F29329FE72D /* Pods-NestedScrollViewExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +750,7 @@
 		};
 		EC322997282FB57C00F0F589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251276E66DEA3940E18F1447 /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +769,7 @@
 		};
 		EC322998282FB57C00F0F589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62F05D14D4EF47DFFD1C83A /* Pods-NestedScrollViewExample-NestedScrollViewExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
